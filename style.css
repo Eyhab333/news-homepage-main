@@ -88,7 +88,7 @@ ul {
     justify-content: space-between;
   }
   .topnav {
-    position: absolute;
+    position: fixed;
     z-index: 5;
     padding: 9rem 0.5625rem 19.3125rem 1.5rem;
     right: 0;
@@ -96,6 +96,7 @@ ul {
     width: 70%;
     background: #fffdfa;
     color: #00001a;
+    box-shadow: 30px 30px 50px 500px hsla(240deg, 100%, 5%, 0.7);
     display: none;
   }
   ul {
